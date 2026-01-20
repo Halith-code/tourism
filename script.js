@@ -3,7 +3,11 @@ const destinationsData = [
     { id: 1, name: "Goa", type: "India", img: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2", desc: "Sun, sand, and spices." },
     { id: 2, name: "Manali", type: "India", img: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23", desc: "Snow-capped mountains." },
     { id: 3, name: "Paris", type: "International", img: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34", desc: "City of Love." },
+<<<<<<< HEAD
     { id: 4, name: "Dubai", type: "International", img: "https://3brotherstourism.com/wp-content/uploads/2025/06/Top-10-Must-Visit-Dubai-Attractions-for-First-Timers-scaled.webp", desc: "Luxury and skyscrapers." },
+=======
+    { id: 4, name: "Dubai", type: "International", img: "https://images.unsplash.com/photo-1512453979798-5ea904ac6605", desc: "Luxury and skyscrapers." },
+>>>>>>> 86cc1b07719237ed34b0dd11e7c90edc8ab24937
     { id: 5, name: "Kerala", type: "India", img: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944", desc: "God's own country." },
     { id: 6, name: "Bali", type: "International", img: "https://images.unsplash.com/photo-1537996194471-e657df975ab4", desc: "Tropical paradise." }
 ];
