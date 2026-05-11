@@ -1,27 +1,32 @@
 /* --- Mock Data --- */
 const destinationsData = [
-    { id: 1, name: "Goa", type: "India", img: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2", desc: "Sun, sand, and spices." },
-    { id: 2, name: "Manali", type: "India", img: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23", desc: "Snow-capped mountains." },
-    { id: 3, name: "Paris", type: "International", img: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34", desc: "City of Love." },
-<<<<<<< HEAD
-    { id: 4, name: "Dubai", type: "International", img: "https://3brotherstourism.com/wp-content/uploads/2025/06/Top-10-Must-Visit-Dubai-Attractions-for-First-Timers-scaled.webp", desc: "Luxury and skyscrapers." },
-=======
-    { id: 4, name: "Dubai", type: "International", img: "https://images.unsplash.com/photo-1512453979798-5ea904ac6605", desc: "Luxury and skyscrapers." },
->>>>>>> 86cc1b07719237ed34b0dd11e7c90edc8ab24937
-    { id: 5, name: "Kerala", type: "India", img: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944", desc: "God's own country." },
-    { id: 6, name: "Bali", type: "International", img: "https://images.unsplash.com/photo-1537996194471-e657df975ab4", desc: "Tropical paradise." }
+    { id: 1, name: "Goa", type: "India", img: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=800&q=80", desc: "Sun, sand, and spices." },
+    { id: 2, name: "Manali", type: "India", img: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?auto=format&fit=crop&w=800&q=80", desc: "Snow-capped mountains." },
+    { id: 3, name: "Paris", type: "International", img: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=800&q=80", desc: "City of Love." },
+    { id: 4, name: "Dubai", type: "International", img: "https://images.unsplash.com/photo-1546412414-8035e1776c9a?auto=format&fit=crop&w=800&q=80", desc: "Luxury and skyscrapers." },
+    { id: 5, name: "Kerala", type: "India", img: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=800&q=80", desc: "God's own country." },
+    { id: 6, name: "Bali", type: "International", img: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80", desc: "Tropical paradise." },
+    { id: 7, name: "Tokyo", type: "International", img: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=800&q=80", desc: "Blending tradition and future." },
+    { id: 8, name: "Santorini", type: "International", img: "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=800&q=80", desc: "Stunning blue domes and sunsets." },
+    { id: 9, name: "Rome", type: "International", img: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=800&q=80", desc: "Eternal city of history and pasta." }
 ];
 
 const hotelsData = [
-    { id: 1, name: "Grand Hyatt", location: "Goa", price: 150, rating: 5, img: "https://images.unsplash.com/photo-1566073771259-6a8506099945" },
-    { id: 2, name: "Mountain View", location: "Manali", price: 50, rating: 3, img: "https://images.unsplash.com/photo-1582719508461-905c673771fd" },
-    { id: 3, name: "Eiffel Stay", location: "Paris", price: 200, rating: 4, img: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4" }
+    { id: 1, name: "Grand Hyatt", location: "Goa", price: 150, rating: 5, img: "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80" },
+    { id: 2, name: "Mountain View", location: "Manali", price: 50, rating: 3, img: "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=800&q=80" },
+    { id: 3, name: "Eiffel Stay", location: "Paris", price: 200, rating: 4, img: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80" },
+    { id: 4, name: "Tokyo Sun", location: "Tokyo", price: 180, rating: 5, img: "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=800&q=80" },
+    { id: 5, name: "Caldera View", location: "Santorini", price: 300, rating: 5, img: "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=800&q=80" },
+    { id: 6, name: "Roma Suites", location: "Rome", price: 120, rating: 4, img: "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=80" }
 ];
 
 const packagesData = [
-    { id: 1, name: "Himalayan Trek", type: "Adventure", price: 300, duration: "5 Days", img: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b" },
-    { id: 2, name: "Scuba Diving", type: "Adventure", price: 150, duration: "1 Day", img: "https://images.unsplash.com/photo-1544551763-46a013bb70d5" },
-    { id: 3, name: "Spa Retreat", type: "Relaxation", price: 200, duration: "3 Days", img: "https://images.unsplash.com/photo-1540555700478-4be289fbecef" }
+    { id: 1, name: "Himalayan Trek", type: "Adventure", price: 300, duration: "5 Days", img: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80" },
+    { id: 2, name: "Scuba Diving", type: "Adventure", price: 150, duration: "1 Day", img: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80" },
+    { id: 3, name: "Spa Retreat", type: "Relaxation", price: 200, duration: "3 Days", img: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80" },
+    { id: 4, name: "Skydiving", type: "Adventure", price: 400, duration: "1 Day", img: "https://images.unsplash.com/photo-1498354178607-a79df2916198?auto=format&fit=crop&w=800&q=80" },
+    { id: 5, name: "Mountain Biking", type: "Adventure", price: 120, duration: "2 Days", img: "https://images.unsplash.com/photo-1511994298241-608e28f14fde?auto=format&fit=crop&w=800&q=80" },
+    { id: 6, name: "Desert Safari", type: "Adventure", price: 100, duration: "1 Day", img: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80" }
 ];
 
 /* --- DOM Elements & Initialization --- */
